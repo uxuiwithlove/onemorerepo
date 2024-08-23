@@ -1,9 +1,10 @@
 import Post from "../../components/Post";
 import { posts } from "./utils";
+import "./style.css";
 
 const Posts = () => {
   return (
-    <div>
+    <div className="allposts">
       <h2 className="posts">All posts:</h2>
       <div className="container">
         {posts.map((post) => {

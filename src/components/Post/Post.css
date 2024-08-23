@@ -59,3 +59,10 @@
 .post-metrics span:last-child {
   margin-right: 0;
 }
+
+/* фиг знает куда это запихнуть */
+.allposts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
