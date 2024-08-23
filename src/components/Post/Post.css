@@ -1,0 +1,61 @@
+/* Основные стили для контейнера постов */
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Стили для отдельного поста */
+.post {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовка поста */
+.post-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Стили для содержимого поста */
+.post-content {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Стили для даты поста */
+.post-date {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* Стили для метрик поста (лайки, комментарии, репосты) */
+.post-metrics {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Стили для каждого элемента метрик */
+.post-metrics span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.post-metrics span:last-child {
+  margin-right: 0;
+}
